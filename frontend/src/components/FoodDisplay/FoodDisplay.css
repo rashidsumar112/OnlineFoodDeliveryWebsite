@@ -1,0 +1,25 @@
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2 span{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+    /* this is my style */
+     background:linear-gradient(to left,#f5d837,#8f8d16) ;/*you can make a graident from any web sites we give here span tag which mean our backgruond works only the behand text of h2 not full h2 area*/
+     padding: 10px 15px;
+    border-radius: 20px;
+   
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 15px;
+    row-gap: 50px;
+}
+.food-display hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color:#e2e2e2 ;
+    border: none;
+}
