@@ -165,3 +165,35 @@ position: relative;
 
     }
 }
+
+@media (max-width:600px){
+    .navbar{
+        padding: 15px 15px;
+    }
+    
+    .navbar .logo{
+        width: 100px;
+    }
+    
+    .navbar-menu{
+        display: none;
+    }
+    
+    .navbar-right{
+        gap: 12px;
+    }
+    
+    .navbar-right img{
+        width: 18px;
+    }
+    
+    .navbar-right button{
+        padding: 7px 15px;
+        font-size: 13px;
+        border-radius: 50px;
+    }
+    
+    .nav-profile-dropdown{
+        right: -10px;
+    }
+}
