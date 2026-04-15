@@ -10,8 +10,10 @@
      border-bottom-left-radius: 4%;
     border-bottom-right-radius: 4%;
     
-    background-size: contain; 
+    background-size: cover; 
+    background-position: center;
     position: relative; 
+    overflow: hidden;
 }
 .header-content{
     position:absolute;
@@ -23,6 +25,7 @@
     bottom: 10% ;
     left: 6vw;
     animation:fadeIn 3s ;
+    z-index: 1;
 }
 .header-content h2{
     font-weight: 500;
@@ -95,7 +98,7 @@
         display: none;
     }
     .header-content button{
-        padding: 2vw,4vw;
+        padding: 2vw 4vw;
         
     }
     
@@ -104,14 +107,14 @@
 @media (max-width:600px) {
     .header{
         height: 50vw;
-        margin-top: 60px;
-        margin: 15px auto;
+        margin: 90px auto 15px;
     }
     
     .header-content{
         max-width: 80%;
         left: 4vw;
         gap: 1vw;
+        bottom: 12%;
     }
     
     .header-content h2{
