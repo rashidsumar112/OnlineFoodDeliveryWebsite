@@ -2,6 +2,7 @@
 .header{
     height:34vw ;
     margin: 25px auto;
+    margin-top: 90px;
     /*for background images*/
     background: url('/header8.jpg') no-repeat ;
     border-top-left-radius: 2%;
@@ -83,6 +84,10 @@
 }
 @media (max-width:750px) {
     
+    .header{
+        margin-top: 70px;
+    }
+    
     .header-content{
         max-width: 65%;
     }
@@ -94,4 +99,31 @@
         
     }
     
+}
+
+@media (max-width:600px) {
+    .header{
+        height: 50vw;
+        margin-top: 60px;
+        margin: 15px auto;
+    }
+    
+    .header-content{
+        max-width: 80%;
+        left: 4vw;
+        gap: 1vw;
+    }
+    
+    .header-content h2{
+        font-size: max(3.5vw, 20px);
+    }
+    
+    .header-content p{
+        display: none;
+    }
+    
+    .header-content button{
+        padding: 1.5vw 3vw;
+        font-size: 12px;
+    }
 }
