@@ -10,7 +10,7 @@ const StoreContextProvider=(props)=>{
     const [cartItem,setcartItem]=useState({});
 
     //these we use in login or sign up page
-    const url='http://localhost:4000'
+    const url='https://onlinefooddeliverywebsite-production.up.railway.app'
     const [token,setToken] = useState("")
 
 
