@@ -18,7 +18,7 @@ import { toast} from 'react-toastify'
 
 
 const App = () => {
-  const url="https://online-food-delivery-website-iyds-c9c8l91ez.vercel.app"
+  const url="https://onlinefooddeliverywebsite-production.up.railway.app"
   return (
     <div>
   
