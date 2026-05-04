@@ -14,7 +14,7 @@ const stripe= new Stripe(process.env.STRIPE_SECRET_KEY)
 const placeOrder = async (req,res)=>{
 
     //this url for frontend url when process success it redirect to front page
-const frontend_url= "https://online-food-delivery-website-nine.vercel.app";
+const frontend_url= "https://online-food-delivery-website-git-main-rashidsumar112s-projects.vercel.app";
 
     try{
 
